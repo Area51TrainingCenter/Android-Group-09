@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase01</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Para el botón -->
+    <string name="btn_text">Agregar</string>
+    <!-- Para el EditText -->
+    <string name="txt_hint">Ingrese una palabra</string>
+    <!-- Mensaje de error -->
+    <string name="error_text">Ingresa una palabra</string>
+    
+</resources>
