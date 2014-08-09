@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Para el detalle -->
+    <color name="background_detail">#000</color>
+    <color name="color_detail">#FFF</color>
+
+</resources>
