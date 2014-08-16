@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="launcher_background">#02648B</color>
+    <color name="izquierda">#01648B</color>
+    <color name="derecha">#1B7497</color>
+    <color name="btn_instrucciones_background">#023B58</color>
+    <color name="btn_instrucciones_text_color">#FFF</color>
+    <color name="btn_text_color">#FFF</color>
+    
+    
+    
+    
+</resources>

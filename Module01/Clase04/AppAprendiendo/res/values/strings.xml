@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppAprendiendo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="btn_instrucciones">¿Cómo usar Fanbooth?</string>
+    <string name="btn_camara_text">Usar FANBOOTH</string>
+    <string name="btn_picture_text">Tus álbumes</string>
+    <string name="title_activity_instrucciones">InstruccionesActivity</string>
+
+</resources>

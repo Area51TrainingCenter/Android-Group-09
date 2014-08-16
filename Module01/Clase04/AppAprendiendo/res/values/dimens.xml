@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- Activity Launcher -->
+    <dimen name="capa_logo_margin_top">40dp</dimen>
+    <dimen name="capa_fanbooth_margin_top">40dp</dimen>
+
+    <!-- Activity Main -->
+    <dimen name="btn_instrucciones_margin_bottom">40dp</dimen>
+    <dimen name="btn_instrucciones_padding_left">15dp</dimen>
+    <dimen name="btn_instrucciones_padding_right">15dp</dimen>
+    
+    
+    <dimen name="btn_camara_margin_bottom">15dp</dimen>
+    
+    
+    <!-- Activity Instrucciones -->
+  <dimen name="padding_small">4dp</dimen>
+  <dimen name="padding_medium">8dp</dimen>
+  <dimen name="padding_large">16dp</dimen>
+    
+</resources>
