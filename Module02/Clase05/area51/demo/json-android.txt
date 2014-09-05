@@ -1,0 +1,15 @@
+{
+	cantidad:"3",	
+	pokemon:[
+		{
+			nombre:"Chrmander",
+			tipo:"Fuego"
+		},{
+			nombre:"Bulbasaur",
+			tipo:"Fuego"
+		},{	
+			nombre:"Squarqle",
+			tipo:"Fuego"
+		}
+	]
+}
