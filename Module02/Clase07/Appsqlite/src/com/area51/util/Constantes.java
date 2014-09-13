@@ -1,6 +1,12 @@
 package com.area51.util;
 
 public class Constantes {
+	
+	//DATOS DE LA APLICACION
+	public static int registro = 0;
+	public static String usuario = "";
+	
+	
 
 	//NOMBRE Y VERSION DE LA BASE DE DATOS
 	public static String DB_NAME = "porathena.db";
@@ -22,7 +28,7 @@ public class Constantes {
 	
 	public static String CREATE_TABLE 
 		= "CREATE TABLE " + DB_TABLE + 
-				"(" + C_ID  + " INTEGER," + 
+				"(" + C_ID  + " INTEGER AUTO_INCREMENT," + 
 				C_USER + " TEXT," + 
 				C_PASSWORD + " TEXT" +
 				")";

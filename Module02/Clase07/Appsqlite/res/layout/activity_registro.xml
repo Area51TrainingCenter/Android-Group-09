@@ -7,41 +7,32 @@
     android:padding="@dimen/raiz_padding" >
 
     <EditText
-        android:id="@+id/txtusuario"
+        android:id="@+id/rtxt_usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/txt_margin_bottom"
-        android:ems="10"
-        android:hint="@string/texto_usuario"
+        android:hint="@string/texto_usuario_registro"
         android:inputType="textEmailAddress" >
 
         <requestFocus />
     </EditText>
 
     <EditText
-        android:id="@+id/txtclave"
+        android:id="@+id/rtxt_clave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/txt_margin_bottom"
-        android:ems="10"
-        android:hint="@string/texto_clave"
-        android:inputType="textPassword" />
+        android:hint="@string/texto_clave_registro"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
 
     <Button
-        android:id="@+id/btningresa"
+        android:onClick="ingresaUsuario"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="Validacion"
-        android:text="@string/texto_ingreso" />
-
-    <TextView
-        android:id="@+id/enlace"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:text="Registro"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#0066cc" />
+        android:text="@string/texto_registro" />
 
 </LinearLayout>

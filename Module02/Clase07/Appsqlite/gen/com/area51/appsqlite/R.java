@@ -29,26 +29,41 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080003;
-        public static final int btningresa=0x7f080002;
-        public static final int txtclave=0x7f080001;
-        public static final int txtusuario=0x7f080000;
+        public static final int action_settings=0x7f080007;
+        public static final int bienvenido=0x7f080000;
+        public static final int btningresa=0x7f080003;
+        public static final int enlace=0x7f080004;
+        public static final int rtxt_clave=0x7f080006;
+        public static final int rtxt_usuario=0x7f080005;
+        public static final int txtclave=0x7f080002;
+        public static final int txtusuario=0x7f080001;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
+        public static final int activity_inicio=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int activity_registro=0x7f030002;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int inicio=0x7f070000;
+        public static final int main=0x7f070001;
+        public static final int registro=0x7f070002;
     }
     public static final class string {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
         public static final int hello_world=0x7f050001;
         public static final int texto_clave=0x7f050004;
+        public static final int texto_clave_registro=0x7f050009;
         public static final int texto_ingreso=0x7f050005;
+        public static final int texto_registro=0x7f05000a;
         /**  Para el logueo 
          */
         public static final int texto_usuario=0x7f050003;
+        /**  Para el registro 
+         */
+        public static final int texto_usuario_registro=0x7f050008;
+        public static final int title_activity_inicio=0x7f050006;
+        public static final int title_activity_registro=0x7f050007;
     }
     public static final class style {
         /** 
