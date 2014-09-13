@@ -27,6 +27,7 @@
         android:text="@string/texto_clave" />
 
     <Button
+        android:onClick="Validacion"
         android:id="@+id/btningresa"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"

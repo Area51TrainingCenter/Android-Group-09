@@ -2,6 +2,7 @@ package com.area51.appsqlite;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -23,5 +24,23 @@ public class MainActivity extends Activity {
 		btningresa = (Button)findViewById(R.id.btningresa);
 				
 	}
+	
+	@Override
+	protected void onResume() {
+		
+		super.onResume();
+		
+		
+	}
+	
+	
+	public void Validacion(View view){
+		
+		
+		
+	}
+	
+	
+	
 
 }
