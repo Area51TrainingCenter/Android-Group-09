@@ -36,6 +36,17 @@ public class MainActivity extends Activity {
 	
 	public void Validacion(View view){
 		
+		String usuario = txtusuario.getText().toString();
+		String clave = txtclave.getText().toString();
+		
+		if( !usuario.equals("") && !clave.equals("") ){
+			
+			//Consultamos a sqlite
+			
+			
+		}else{
+			//Mostramos mensaje de error
+		}
 		
 		
 	}
