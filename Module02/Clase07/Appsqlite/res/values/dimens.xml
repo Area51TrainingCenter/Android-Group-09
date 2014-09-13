@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Para el logueo -->
+    <dimen name="raiz_padding">25dp</dimen>
+    <dimen name="txt_margin_bottom">15dp</dimen>
+    
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Appsqlite</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Para el logueo -->
+    <string name="texto_usuario">Ingrese el usuario</string>
+    <string name="texto_clave">Ingrese una clave</string>
+    <string name="texto_ingreso">Ingresar</string>
+    
+    
+</resources>
