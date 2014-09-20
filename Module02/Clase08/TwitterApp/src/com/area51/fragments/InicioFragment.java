@@ -19,11 +19,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class InicioFragment extends Fragment {
 
 	ListView listainicio;
 	LinearLayout capacargando;
+	
+	TweetAdapter adapter;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater,
@@ -56,6 +59,30 @@ public class InicioFragment extends Fragment {
 	}
 
 	public void mostrarTweets( ArrayList<TweetModel> arreglo ){
+		
+		//Ocultamos el layout con el loader
+		capacargando.setVisibility(View.GONE);
+		
+		//Verificamos que haya información
+		
+		if( !arreglo.isEmpty() ){
+			//Llenamos el adapter
+			adapter = new TweetAdapter(getActivity(), 0,arreglo);
+			listainicio.setAdapter(adapter);
+			listainicio.setVisibility(View.VISIBLE);
+			
+			
+			
+		}else{
+			//Mostramos un mensaje
+			Toast.makeText(
+					getActivity(), 
+					R.string.texto_dato_vacio , 
+					Toast.LENGTH_SHORT).show();
+			
+			
+		}
+		
 		
 	}
 	

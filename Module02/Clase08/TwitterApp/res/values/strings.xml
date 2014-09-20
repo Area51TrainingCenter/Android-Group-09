@@ -5,4 +5,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <!-- Mensajes -->
+    <string name="texto_dato_vacio">No hay datos</string>
+    
+    
 </resources>

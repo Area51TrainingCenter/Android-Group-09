@@ -1,9 +1,9 @@
 package com.area51.adapters;
 
-import com.area51.models.TweetModel;
-import com.area51.twitterapp.R;
+import java.util.ArrayList;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,14 +11,26 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.area51.models.TweetModel;
+import com.area51.twitterapp.R;
+import com.area51.utils.BitmapManager;
+
 public class TweetAdapter extends ArrayAdapter<TweetModel> {
 
 	Context context;
+	ArrayList<TweetModel> arreglo;
 
-	public TweetAdapter(Context context, int resource) {
-		super(context, 0);
+	public TweetAdapter(
+			
+			Context context, 
+			int resource,
+			ArrayList<TweetModel> arreglo
+			
+			){
+		super(context, 0, arreglo);
 
 		this.context = context;
+		this.arreglo = arreglo;
 	}
 
 	@Override
@@ -47,10 +59,22 @@ public class TweetAdapter extends ArrayAdapter<TweetModel> {
 		}
 
 		// Mostrar Imagen pendiente
-
-		vh.username.setText(getItem(position).getUsername());
-		vh.email.setText(getItem(position).getEmail());
-		vh.detail.setText(getItem(position).getDetail());		
+		
+		vh.username.setText(arreglo.get(position).getUsername());
+		vh.email.setText(arreglo.get(position).getEmail());
+		vh.detail.setText(arreglo.get(position).getDetail());
+		
+		String urlimage = arreglo.get(position).getPathImage();
+		urlimage = urlimage.replace("normal", "200x200");
+		
+		BitmapManager
+			.getInstance()
+				.loadBitmap(
+						urlimage, 
+						vh.image);
+		
+		Log.d("BitmapManager","" + 
+				arreglo.get(position).getPathImage());
 
 		return view;
 	}

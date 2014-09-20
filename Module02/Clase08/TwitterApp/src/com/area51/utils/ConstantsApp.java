@@ -28,7 +28,7 @@ public class ConstantsApp {
 	public static final String TWITTER_USER = "segundo_acosta";
 
 	// FOR HASHTAGFRAGMENT (TERM FOR SEARCH BY DEFAULT)
-	public static final String TWITTER_TERM = "desvelopers";
+	public static final String TWITTER_TERM = "티아라";
 
 	// FOR SEARCHFRAGMENT
 	public static final String TWITTER_SEARCH = "";
