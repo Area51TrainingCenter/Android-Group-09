@@ -8,6 +8,7 @@ import com.area51.models.TweetModel;
 import com.area51.twitterapp.R;
 import com.area51.utils.ConstantsApp;
 import com.area51.utils.NetworkApp;
+import com.nhaarman.listviewanimations.swinginadapters.prepared.SwingBottomInAnimationAdapter;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -45,6 +46,8 @@ public class InicioFragment extends Fragment {
 
 		super.onResume();
 
+		
+		
 		// Verificar la conexión de red
 		NetworkApp conexion = new NetworkApp(getActivity());
 
@@ -66,6 +69,14 @@ public class InicioFragment extends Fragment {
 		//Verificamos que haya información
 		
 		if( !arreglo.isEmpty() ){
+			
+			
+			/*
+			SwingBottomInAnimationAdapter sbiaa 
+			= new SwingBottomInAnimationAdapter( 
+					new TweetAdapter(getActivity(), 0,arreglo) );
+			*/
+			
 			//Llenamos el adapter
 			adapter = new TweetAdapter(getActivity(), 0,arreglo);
 			listainicio.setAdapter(adapter);
