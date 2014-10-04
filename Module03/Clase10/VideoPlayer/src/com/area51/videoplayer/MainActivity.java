@@ -116,6 +116,7 @@ OnSeekBarChangeListener
 					mp.start();
 					btnplay.setVisibility(View.GONE);
 					btnpause.setVisibility(View.VISIBLE);
+					mp.seekTo(Utilitarios.tiempo);
 					handler.postDelayed(hilo, delay);
 				}
 				
@@ -132,6 +133,9 @@ OnSeekBarChangeListener
 					mp.pause();					
 					btnpause.setVisibility(View.GONE);
 					btnplay.setVisibility(View.VISIBLE);
+					
+					Utilitarios.tiempo = mp.getCurrentPosition();
+					
 					//QUITAMOS EL HILO DEL HANDLER
 					handler.removeCallbacks(hilo);
 					
@@ -268,6 +272,8 @@ OnSeekBarChangeListener
 		
 		btnpause.setVisibility(View.GONE);
 		btnplay.setVisibility(View.VISIBLE);
+		Utilitarios.tiempo = 0;
+		
 		
 	}
 
