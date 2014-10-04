@@ -268,13 +268,19 @@ OnSeekBarChangeListener
 	@Override
 	public void onCompletion(MediaPlayer mp) {
 		//TERMINO LA REPRODUCCIÓN DEL VIDEO 
+		contador();
 		handler.removeCallbacks(hilo);
 		
 		btnpause.setVisibility(View.GONE);
 		btnplay.setVisibility(View.VISIBLE);
 		Utilitarios.tiempo = 0;
-		
-		
+
+		/*
+		txttiempo.setText(  
+				textoTiempo(mp.getDuration()) + " / " +
+						textoTiempo(mp.getDuration()) 
+				);
+*/		
 	}
 
 	@Override

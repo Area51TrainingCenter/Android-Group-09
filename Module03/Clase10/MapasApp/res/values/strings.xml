@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MapasApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- PARA EL MARKER -->
+    <string name="marker_titulo">Aquí estoy</string>
+    <string name="marker_descripcion">Esta es mi ubicación </string>
+    
+</resources>
