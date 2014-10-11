@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MapasApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- PARA EL MARKER -->
+    <string name="marker_titulo">Aquí estoy</string>
+    <string name="marker_descripcion">Esta es mi ubicación </string>
+    
+    <!-- PARA EL MENÚ CONTEXTUAL -->
+    <string name="menu_texto">Tipos</string>
+    <string name="mapa_normal" >Normal</string>
+    <string name="mapa_hibrido" >Híbrido</string>
+    <string name="mapa_terreno">Terreno</string>
+    <string name="mapa_satelital" >Satelital</string>    
+    <!-- PARA CARGA DE RUTAS -->
+    <string name="ruta_mensaje" >Cargando datos</string>
+    
+    <!-- PARA IDIOMAS -->
+    <string name="idioma_espaniol" >Español</string>
+    <string name="idioma_frances" >Francés</string>
+    
+    
+</resources>

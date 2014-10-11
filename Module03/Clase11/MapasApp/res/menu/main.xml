@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.area51.mapasapp.MainActivity" >
+
+    <item
+        android:showAsAction="always"
+        android:title="@string/menu_texto">
+        <menu >
+            <item
+                android:id="@+id/mapa_normal"
+                android:showAsAction="always"
+                android:title="@string/mapa_normal"
+                 />
+            
+            <item
+                android:id="@+id/mapa_hibrido"
+                android:showAsAction="always"
+                android:title="@string/mapa_hibrido"
+                 />
+            
+            <item
+                android:id="@+id/mapa_terreno"
+                android:showAsAction="always"
+                android:title="@string/mapa_terreno"
+                 />
+            
+            <item
+                android:id="@+id/mapa_satelital"
+                android:showAsAction="always"
+                android:title="@string/mapa_satelital"
+                 />
+            
+            
+            <item
+                android:id="@+id/idioma_espaniol"
+                android:showAsAction="always"
+                android:title="@string/idioma_espaniol"
+                 />
+            
+            <item
+                android:id="@+id/idioma_frances"
+                android:showAsAction="always"
+                android:title="@string/idioma_frances"
+                 />
+            
+        </menu>        
+    </item>
+
+</menu>
